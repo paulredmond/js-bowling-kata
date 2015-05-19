@@ -5,7 +5,6 @@ function BowlingGame() {
 }
 
 BowlingGame.prototype.roll = function (pins) {
-    this.total += pins;
     this.rolls[this.currentRoll++] = pins;
 };
 
