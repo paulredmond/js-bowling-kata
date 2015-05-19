@@ -1,0 +1,21 @@
+{
+  "name": "js-bowling-kata",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "author": "Paul Redmond",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^2.3.0",
+    "gulp-mocha": "^2.0.1",
+    "gulp-util": "^3.0.4",
+    "karma": "^0.12.31",
+    "mocha": "^2.2.5"
+  },
+  "dependencies": {
+    "gulp": "^3.8.11"
+  }
+}
